@@ -1,0 +1,139 @@
+* {
+   box-sizing: border-box;
+   font-family: 'Port Lligat Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* TOP SECTION */
+
+div.nav {
+    background-color: #FF8959;
+    height: 80px;
+    width: 100%;
+}
+/* Logo */
+.logo {
+    color: #F6FAE6;
+    float: left;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding: 16px;
+}
+.logo img {
+    height: 30px;
+    width: 30px;
+}
+ /* Navigation Bar */
+ .nav ul {
+    float: right; 
+    list-style-type: none;
+    margin: 10px;
+ }
+ .nav ul li {
+     display: inline-block;
+     font-size: 26px;
+     padding: 15px;
+ }
+ .nav ul li a {
+     color: #F6FAE6;
+     padding: 15px;
+     text-decoration: none;
+ }
+
+ /* MIDDLE SECTION */
+
+div.middle {
+    background-color: #F9F4CE;
+    height: 500px;
+}
+ /* Search Bar */
+input {
+    border: 1px outset;
+    box-shadow: 5px 10px 18px #888888;
+    font-size: 16px;
+    height: 40px;
+    margin: 10px;
+    position: absolute;
+    right: 5px;
+    width: 250px;
+}
+.fa-search {
+    font-size: 20px;
+    margin: 17px;
+    position: absolute;
+    right: 5px;
+}
+ /* Image */
+.middle img {
+     height: 450px;
+     padding-top: 50px;
+     padding-left: 30px;
+     width: 550px;
+ }
+ /* Written Content */
+div.written-content {
+    bottom: 200px;
+    position: absolute;
+    right: 200px;
+    text-align: center;
+    width: 30%;
+}
+p {
+     color: #78BE91;
+     font-size: 40px;
+     margin-bottom: 80px;
+     margin-right: 5px;
+     text-align: left;
+ }
+ span {
+     color: #FF8959;
+ }
+ /* Buttons */
+.btn1 {
+    background-color: #78BE91;
+    bottom: 160px;
+    color: #F6FAE6;
+    font-size: 20px;
+    margin: 25px;
+    padding: 15px 50px;
+    position: absolute;
+    right: 400px;
+}
+.btn2 {
+    background-color: #FF8959;
+    bottom: 160px;
+    color: #F6FAE6;
+    font-size: 20px;
+    margin: 25px;
+    padding: 15px 25px;
+    position: absolute;
+    right: 180px;
+}
+
+ /* FOOTER */
+
+ footer {
+     background-color: #78BE91;
+     height: 120px;
+     margin: 0;
+ }
+ /* Links */
+ footer ul {
+     list-style-type: none;
+     margin: 0;
+     text-align: center;
+ }
+ footer ul li {
+     display: inline-block;
+     padding: 20px;
+ }
+ footer ul li a {
+     color: #F6FAE6;
+     font-size: 24px;
+     text-decoration: none;
+ }
+
+
