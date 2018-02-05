@@ -67,7 +67,11 @@ input {
     right: 5px;
 }
  /* Image */
-.middle img {
+ div.img {
+     float: left;
+     width: 55%;
+ }
+.middle .img img {
      height: 450px;
      padding-top: 50px;
      padding-left: 30px;
@@ -75,23 +79,23 @@ input {
  }
  /* Written Content */
 div.written-content {
-    bottom: 200px;
-    position: absolute;
-    right: 200px;
-    text-align: center;
-    width: 30%;
+    float: right;
+    padding: 80px 70px 0 0;
+    text-align: left;
+    width: 45%;
 }
 p {
      color: #78BE91;
      font-size: 40px;
-     margin-bottom: 80px;
-     margin-right: 5px;
      text-align: left;
  }
  span {
      color: #FF8959;
  }
  /* Buttons */
+ .written-content button {
+     display: inline-block;
+ }
 .btn1 {
     background-color: #78BE91;
     bottom: 160px;
@@ -99,8 +103,6 @@ p {
     font-size: 20px;
     margin: 25px;
     padding: 15px 50px;
-    position: absolute;
-    right: 400px;
 }
 .btn2 {
     background-color: #FF8959;
@@ -109,8 +111,6 @@ p {
     font-size: 20px;
     margin: 25px;
     padding: 15px 25px;
-    position: absolute;
-    right: 180px;
 }
 
  /* FOOTER */
