@@ -48,6 +48,7 @@ div.nav {
 div.middle {
     background-color: #F9F4CE;
     height: 500px;
+    width: 100%;
 }
  /* Search Bar */
 input {
@@ -58,7 +59,7 @@ input {
     margin: 10px;
     position: absolute;
     right: 5px;
-    width: 250px;
+    width: 22%;
 }
 .fa-search {
     font-size: 20px;
@@ -113,11 +114,12 @@ p {
     padding: 15px 25px;
 }
 
+
  /* FOOTER */
 
  footer {
      background-color: #78BE91;
-     height: 120px;
+     height: 100px;
      margin: 0;
  }
  /* Links */
@@ -136,4 +138,111 @@ p {
      text-decoration: none;
  }
 
+/* Media Queries */
 
+@media (max-width: 1253px) {
+    .written-content button {
+        margin: 0;
+    }
+}
+@media (max-width: 1030px) {
+   .img {
+       float: none;
+       display: block;
+   }
+   .written-content {
+       float: none;
+       display: block;
+   }
+}
+@media (max-width: 955px) {
+    .logo {
+        display: none;
+    }
+    .nav {
+        float: none;
+        margin: 0;
+    }
+    .nav ul li {
+        font-size: 22px;
+    }
+    .written-content p {
+        font-size: 30px;
+    }
+    .btn1,
+    .btn2 {
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+    .middle .img img {
+        height: 350px;
+        width: 450px;
+
+    }  
+}
+@media (max-width: 750px) {
+    .written-content p {
+        font-size: 20px;
+    }
+    div.middle {
+        height: 300px;
+    }
+    .middle .img img {
+        height: 250px;
+        width: 350px;
+    }
+    .btn1,
+    .btn2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 695px) {
+    .written-content .btn1 {
+        display: none;
+    }
+    .written-content .btn2 {
+        display: none;
+    }
+    .nav ul li {
+        font-size: 14px;
+    }
+    footer {
+        height: 80px;
+    }
+    footer ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width: 580px) {
+    .nav {
+        height: 40px;
+    }
+    .nav ul {
+        margin: 2px;
+    }
+    .nav ul li {
+        padding: 12px;
+    }
+    .nav ul li a {
+        padding: 12px;
+    }
+    .middle .img img {
+        height: 260px;
+        width: 310px;
+    }
+    div.written-content {
+        padding: 55px 40px 0 10px;
+    }
+    footer {
+        height: 60px;
+    }
+}
+@media (max-width: 505px) {
+    .middle .img img {
+        height: 220px;
+        width: 230px;
+    }
+    div.written-content {
+        padding: 55px 40px 0 10px;
+    }
+}
